@@ -1,0 +1,14 @@
+/*Excerpt Line Count*/
+selector .elementor-post__excerpt{ overflow: hidden; 
+    width:100%; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+}
+/*Title Line Count*/
+selector .elementor-post__title{ overflow: hidden; 
+    width:100%;
+    display: -webkit-box; 
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+}
